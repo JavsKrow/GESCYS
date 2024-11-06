@@ -29,4 +29,4 @@ from flask_restful import Api
 api = Api(app, prefix="/gescys/v1")
 
 # * ENDPOINTS =========================================================
-# import src.routes
+import src.routes
