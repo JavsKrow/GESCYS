@@ -1,0 +1,116 @@
+/* Estilo del contenedor principal del formulario */
+.registro-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #0073e6; /* Cambia el color del borde a azul */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(245, 245, 245, 0.85); /* Fondo con efecto de vidrio (glass) */
+    backdrop-filter: blur(10px); /* Aplica el efecto de vidrio */
+    display: flex; /* Usa un contenedor flexible */
+    flex-direction: column; /* Apila elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+  }
+  
+  /* Estilo del fondo de la página */
+  /* body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/518/751/original/vector-black-triangular-abstract-texture-low-light-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } */
+
+  .fondo-container {
+    background-image: url('https://wallpapers.com/images/hd/pleasant-shades-of-blue-gradient-background-o1gzfi7crc0a1dud.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido dentro del fondo */
+    justify-content: center; /* Centra horizontalmente el contenido dentro del fondo */
+    /* Otros estilos para el contenedor */
+  }
+  
+  /* Título del formulario */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Etiquetas y campos de entrada */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Campo de archivo (input[type="file"]) */
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Cuadro en blanco */
+  .cuadro-vacio {
+    width: 120px;
+    height: 120px;
+    border: 2px dashed #ccc;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #999;
+  }
+  
+  /* Contenedor de la imagen */
+  .imagen-cuadro {
+    text-align: center;
+  }
+  
+  .imagen-cuadro img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Botón de registro */
+  button[type="submit"] {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005bbb;
+  }
+  

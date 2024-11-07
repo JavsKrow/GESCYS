@@ -1,0 +1,104 @@
+/* Importa la fuente de Google Fonts gótica */
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;600&display=swap');
+
+/* Estilo general del formulario */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo del botón de inicio de sesión */
+  .loginEnviar {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .loginEnviar:hover {
+    background-color: #005bbb;
+  }
+
+  .fondo-container {
+    background-image: url('https://wallpapers.com/images/hd/pleasant-shades-of-blue-gradient-background-o1gzfi7crc0a1dud.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Otros estilos para el contenedor */
+  }
+  
+  /* Estilo de los campos de entrada */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo de las etiquetas en el lado derecho */
+  #username-label,
+  #password-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #888; /* Cambiamos el color a uno metalizado */
+    font-weight: bold; /* Hacemos la letra en negrita */
+  }
+  
+  /* Estilo del contenedor del formulario */
+  .glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; /* Usa un contenedor flexible */
+    flex-direction: column; /* Apila elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+  }
+
+  h1 {
+    font-family: 'Karma', sans-serif; /* Utiliza la fuente de Google Fonts 'Karma' y una fuente de respaldo en caso de que la fuente no se cargue correctamente */
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+/* Estilo del lado izquierdo con imagen de fondo */
+.left-side {
+    width: 50%;
+    height: 100%;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5d0c74548c8e8f0001be73ba/1590090634108-CV9CE11RG75BP6YF7RMR/90440.jpg'); /* Reemplaza con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Para que los elementos secundarios se posicionen relativamente */
+  }
+  
+  /* Estilo del texto en la parte superior */
+  #title-text {
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra tanto horizontal como verticalmente */
+    font-family: 'Karma', sans-serif; /* Utiliza la fuente de Google Fonts 'Karma' o la que prefieras */
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white; /* Cambia el color del texto según sea necesario */
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #0073e6;
+    margin: 0 auto 20px;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/avatars-55/100/avatar_profile_user_music_headphones_shirt_cool-512.png'); /* Reemplaza 'URL_DE_LA_IMAGEN' con la URL de tu imagen de perfil */
+    background-size: cover;
+    background-position: center;
+  }
